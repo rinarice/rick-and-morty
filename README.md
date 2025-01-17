@@ -17,7 +17,13 @@
 3. Python, Django/Flask/FastAPI, ORM, PostgreSQL, Git.
 4. All endpoints should be documented via Swagger. 
 
-### How to run:
+
+### How to run with Docker
+- Copy .env.sample -> .env and populate with all required data
+- `docker-compose up --build`
+- Create admin user & Create schedule for running sync in DB
+
+### How to run with GitHub:
 - Create venv: `python -m venv venv`
 - Activate it: `source venv/bin/activate`
 - Install requirements: `pip install -r requirements.txt`
